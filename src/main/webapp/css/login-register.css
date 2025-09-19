@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+html,
+body {
+  height: 100%;
+}
+
+body.login-register-page {
+  background-color: #f7f9fb;
+  font-size: 14px;
+}
+
+.login-register-page .brand {
+  text-align: center;
+  margin: 40px auto;
+  position: relative;
+  z-index: 1;
+}
+
+.login-register-page .card-wrapper {
+  width: 400px;
+}
+
+.login-register-page .card {
+  border-color: transparent;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.login-register-page .card.fat {
+  padding: 10px;
+}
+
+.login-register-page .card .card-title {
+  margin-bottom: 30px;
+}
+
+.login-register-page .form-control {
+  border-width: 2.3px;
+}
+
+.login-register-page .form-group label {
+  width: 100%;
+}
+
+.login-register-page .btn.btn-block {
+  padding: 12px 10px;
+}
+
+.login-register-page .footer {
+  margin: 40px 0;
+  color: #888;
+  text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+  .login-register-page .card-wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .login-register-page .card.fat {
+    padding: 0;
+  }
+
+  .login-register-page .card.fat .card-body {
+    padding: 15px;
+  }
+}
+
+/* login-register.css */
+.card-wrapper {
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    padding: 10px 0;
+}
+
+/* Example of additional shared elements */
+.button-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-primary:hover {
+    background-color: #0056b3;
+}
